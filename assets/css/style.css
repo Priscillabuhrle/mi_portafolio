@@ -3,4 +3,29 @@
 body{
     font-family: 'Oswald', sans-serif;
     color: #373A3C;
+    margin-top: 82px;
+}
+
+/*seccion foto principal*/
+
+.fotoyo{
+    background-image: url(../img/mujer.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yosoy{
+    font-size: 300;
+    font-size: 70px;
+}
+.hr1{
+    width: 200px;
+    border: 3px solid white;
+}
+.nombre{
+    font-weight: 700;
+    font-size: 90px;
+}
+.cont{
+    padding-top: 320px;
 }
