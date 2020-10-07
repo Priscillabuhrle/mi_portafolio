@@ -15,7 +15,6 @@ body{
     background-size: 100% 100%;
 }
 .yosoy{
-    font-size: 300;
     font-size: 70px;
 }
 .hr1{
@@ -27,5 +26,10 @@ body{
     font-size: 90px;
 }
 .cont{
-    padding-top: 320px;
+    padding-top: 250px;
+}
+
+/*sección mis últimos trabajos*/
+.imtrabajos{
+    width: 70%;
 }
