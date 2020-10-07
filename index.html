@@ -14,25 +14,25 @@
     <nav class="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top px-5" >
         <div class="container">
             <a class="navbar-brand" href="#"><h1> P</h1></a> 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span  class="  navbar-toggler-icon" ></span>
             </button>
             <div class="collapse navbar-collapse  " id="navbarNavDropdown">
                <ul class="navbar-nav ml-auto">
                  <li class="nav-item active  ">
-                    <a class="nav-link  text-white " href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link  text-white " href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre mi</a>
+                    <a class="nav-link text-white" href="#sobreMi">Sobre mi</a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Experiencia</a>
+                    <a class="nav-link text-white" href="#experiencia">Experiencia</a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Trabajos</a>
+                    <a class="nav-link text-white" href="#trabajos">Trabajos</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link text-white" href="#">Contacto</a>
+                   <a class="nav-link text-white" href="#contacto">Contacto</a>
                  </li>
               </ul>
           </div>
@@ -41,7 +41,7 @@
 
 
     <!--seccion foto principal-->
-    <section class="container-fluid mb-5">
+    <section id="inicio" class="container-fluid mb-5">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="fotoyo text-center text-white">
@@ -59,38 +59,40 @@
     </section>
 
     <!--seccion sobre mi-->
-    <section class="d-none d-sm-block d-sm-none d-md-block ">
-        <div class="container text-center">
+    <section id="sobreMi" class="d-none d-sm-block d-sm-none d-md-block mb-5">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h1 class="h1so mt-5"> Buenos días, a continuación me presento brevemente con el objetivo de que puedan conocerme un poco mejor y si gustan puedan contactarme!</h1>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                    <h1>Sobre mí</h1>
                     <hr class="hrcomun my-5">
+                    <h2 class="h1so my-5"> Buenos días, a continuación me presento brevemente con el objetivo de que puedan conocerme un poco mejor y si gustan puedan <span class="spanle badge badge-success py-2">contactame!</span></h2>
                 </div>
             </div>
             <div class="row">
-                <div class=" col-md-6 col-lg-6 col-xl-6" >
-                    <p class="d">Tengo 39 años, vivo en la región Mteropolitana, espicificamente en la comuna de Ñuñoa junto a mi familia y mis mascotas</p>
+                <div class=" col-md-6 col-lg-6 col-xl-6 text-justify" >
+                    <p>Me gustaría integrarme en el Departamento de desarrollo de su empresa, ya que estoy capacitado y tengo las habilidades para desarrollar diferentes tareas, especialmente en front end. Recientemente he finalizado mis estudios en programación y Dirección de proyectos en la Universidad de Madrid. La metodología aplicada en el centro, orientada a la acción y resultados, me ha permitido desarrollar una gran capacidad de resolución y  adquirir una perspectiva global de todas las áreas del proyecto. </p>
                 </div>
-                <div class=" col-md-6 col-lg-6 col-xl-6" >
-                  <p>Tengo estudios en lenguajes de programación como son el HTML / CSS /JV. También manejo Wordpress</p>
+                <div class=" col-md-6 col-lg-6 col-xl-6 text-justify" >
+                  <p>Quisiera agregar que tengo estudios en lenguajes de programación como son el HTML / CSS /JV, BOOTSTRAP, también manejo Wordpress. Me encantaría mantener una conversación con usted a su mejor conveniencia para ampliarle personalmente la información que le remito. Para ello podrá localizarme con facilidad en el número de teléfono (8643589765) o por correo electrónico a (paulina@gmail.com), o también pueden contactrme directamente por está vía a traves de contacto.</p>
                </div>
             </div>
         </div>
     </section>
 
     <!--seccion mi experiencia-->
-    <section>
+    <section id="experiencia" class="bg-light my-3 py-4 ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 my-4 text-center">
                     <h1 class="">MI EXPERIENCIA</h1>
                     <hr class="hrcomun my-5">
+                    <h2 class="h1so my-5"> Últimos dos empleos</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
                     <!--1-->
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center border border-success " style="width: 18rem;">
                         <img src="./assets/img/ibm.jpg" class="card-img-top" alt="Foto IBM">
                         <div class="card-body">
                           <h5 class="card-title">IBM</h5>
@@ -100,7 +102,7 @@
                 </div>
                       <!--2-->
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-4">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center border border-success " style="width: 18rem;">
                         <img src="./assets/img/accenture.jpg" class="card-img-top" alt="foto Accenture">
                         <div class="card-body">
                           <h5 class="card-title">Accenture</h5>
@@ -113,44 +115,69 @@
     </section>
 
     <!--seccion ultimos trabajos-->
-
-    <section>
+    
+    <section id="trabajos" class="m-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 my-4 text-center">
                     <h1 class="">MIS ÚLTIMOS TRABAJOS</h1>
-                    <hr class="">
+                    <hr class="hrcomun my-5">
+                    <h2 class="h1so my-5"> Realizados con Bootstrap</h2>
+                     <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success mb-5" data-toggle="modal" data-target="#exampleModal">
+                      IMPORTANTE
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"                   aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Github</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Si deseas ver mejor mis trabajos puedo compartir mi github
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>  
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/cuppon.png" alt="Foto trabajo Cuppon">   
+                    <img class="imtrabajos border border-success rounded p-2" src="./assets/img/cuppon.png" alt="Foto trabajo Cuppon">   
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/iguana_page.png" alt="Foto trabajo Iguana">
+                    <img class="imtrabajos border border-success rounded p-2" src="./assets/img/iguana_page.png" alt="Foto trabajo Iguana">
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/meet_coffee.png" alt="Foto trabajo Meet Coffee">
+                    <img class="imtrabajos border border-success rounded p-2" src="./assets/img/meet_coffee.png" alt="Foto trabajo Meet Coffee">
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/ricomida.png" alt="Foto trabajo Ricomida">
+                    <img class="imtrabajos border border-success rounded p-2 " src="./assets/img/ricomida.png" alt="Foto trabajo Ricomida">
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/suricata.png" alt="Foto trabajo Suricata">
+                    <img class="imtrabajos border border-success rounded p-2" src="./assets/img/suricata.png" alt="Foto trabajo Suricata">
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4">
-                    <img class="imtrabajos" src="./assets/img/dmark.png" alt="Foto trabajo DMark">
+                    <img class="imtrabajos border border-success rounded p-2" src="./assets/img/dmark.png" alt="Foto trabajo DMark">
                 </div>
             </div>
         </div>    
     </section>
     <!--seccion contacto-->
-    <section>
+    <section id="contacto" class="bg-success mt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 my-4 text-center text-white">
                     <h1>CONTACTO</h1>
-                    <HR>
+                    <hr class="hrcomun2 my-5">
+                    <h2 class="h1so my-5"> Llena el formulario</h2>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -162,16 +189,16 @@
 
 
     <!--footer-->
-    <footer class="container-fluid text-center bg-dark text-white py-3">
+    <footer class="bg-dark text-white py-3 ">
         <div class="conainer">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <h1 class="nfooter">PAULINA</h1>
+                    <h1 class="text-center">PAULINA</h1>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <a href="https://www.github.com" target="_blank" ><i class="fab fa-github-square"></i> </a>
-                    <a href="https://www.linkedin.com/login/es" target="_blank"> <i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/?lang=es" target="_blank" ><i class="fab fa-twitter-square"></i> </a>
+                    <a href="https://www.github.com" target="_blank" ><i class="fab fa-github-square mr-4"></i> </a>
+                    <a href="https://www.linkedin.com/login/es" target="_blank"> <i class="fab fa-linkedin mr-4"></i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank" ><i class="fab fa-twitter-square mr-4"></i> </a>
                     <a href="https://www.facebook.com" target="_blank" ><i class="fab fa-facebook-square"></i> </a>
                 </div>
             </div>
