@@ -5,10 +5,10 @@ body{
     font-weight: 300;
     color: #373A3C;
 }
-/*nav*/
+/*nav
 .navbar-dark .navbar-toggler {
     margin-right: 80px !important;
-}
+}*/
 /*seccion foto principal*/
 
 .fotoyo{
@@ -45,9 +45,16 @@ body{
     width: 300px;
     border: 2px solid #2D6B06;
 }
+.tooltip{
+    font-size: 10px;
+}
 /*sección mis últimos trabajos*/
+
 .imtrabajos{
-    width: 70%;
+    width: 350px;
+}
+.card-img-top{
+    height: 180px;
 }
 
 /*footer*/
@@ -60,3 +67,62 @@ footer div a i{
     color:white;
     font-size: 50px;
 }
+
+/* responsivo */
+
+@media only screen and (max-width: 360px) and (min-width: 5px)  {  
+     
+      .nombre{
+          font-size: 60px;
+      }
+      .hrcomun{
+         width: 170px;
+     }
+      .card{
+         width: 290px !important;
+         margin-bottom: 30px;
+      }
+      .imtrabajos{
+          margin-left: -27px;
+          width: 300px;
+      }
+      .hrcomun2{
+         width: 170px;
+      }
+    .fab{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+} 
+
+
+@media only screen and (max-width: 375px) and (min-width: 361px)  {
+    .card{
+        margin-bottom: 30px;
+    }
+    .imtrabajos{
+        margin-left: -30px;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 376px)  {
+    .card{
+        margin-bottom: 30px;
+    }
+    .imtrabajos{
+        margin-left: -30px;
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 700px)  {
+    .card{
+        margin-bottom: 30px;
+    }
+    .imtrabajos{
+        width: 300px;
+    }
+}
+
+
