@@ -48,6 +48,9 @@ body{
 .tooltip{
     font-size: 10px;
 }
+.imgcarrusel{
+    height: 600px;
+}
 /*sección mis últimos trabajos*/
 
 .imtrabajos{
@@ -56,7 +59,16 @@ body{
 .card-img-top{
     height: 180px;
 }
-
+.iconopega{
+    font-size: 30px;
+    color: #2D6B06;
+}
+.btntrabajos{
+    margin-left: 115px;
+}
+.titulotrabajo{
+    font-weight: 300;
+}
 /*footer*/
 
 .hrcomun2{
